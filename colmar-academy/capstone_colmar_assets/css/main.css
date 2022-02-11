@@ -1,0 +1,128 @@
+                                                                           /*Header*/
+                                                                       
+                                                                       .navbar {
+                                                                           display: flex;
+                                                                           flex-direction: row;
+                                                                           justify-content: space-between;
+                                                                       }
+                                                                       
+                                                                       .navbar .navbar-logo {
+                                                                           display: inline-flex;
+                                                                           align-items: left;
+                                                                           flex-grow: 1;
+                                                                           margin-left: 24px;
+                                                                           width: 64px;
+                                                                           font-size: 32px;
+                                                                       }
+                                                                       
+                                                                       .navbar .navbar-menu-lists {
+                                                                           display: flex;
+                                                                           flex-direction: row;
+                                                                           list-style-type: none;
+                                                                       }
+                                                                       
+                                                                       .navbar-menu-lists .menu-item {
+                                                                           padding-right: 24px;
+                                                                           padding: 16px;
+                                                                           justify-content: center;
+                                                                       }
+                                                                       
+                                                                       .banner {
+                                                                           display: flex;
+                                                                           justify-content: space-between;
+                                                                           width: 100%;
+                                                                       }
+                                                                       /*End Header*/
+                                                                       /*Section-1-learn-something*/
+                                                                       
+                                                                       .banner {
+                                                                           width: 100%;
+                                                                           background-color: lightgray;
+                                                                       }
+                                                                       
+                                                                       .banner-img {
+                                                                           width: 60%;
+                                                                           padding-left: 24px;
+                                                                           padding-right: 24px;
+                                                                           padding-top: 32px;
+                                                                           padding-bottom: 32px;
+                                                                       }
+                                                                       
+                                                                       .learn-something {
+                                                                           display: flex;
+                                                                           align-items: right;
+                                                                       }
+                                                                       
+                                                                       .button-start {
+                                                                           color: darksgrey;
+                                                                           justify-content: flex-end;
+                                                                       }
+                                                                       /*End Section-1-learn-something*/
+                                                                       /*Section-2-orientation*/
+                                                                       
+                                                                       .orientation {
+                                                                           width: 100%;
+                                                                       }
+                                                                       
+                                                                       .information-main {
+                                                                           font-weight: bold;
+                                                                           width: 60%;
+                                                                           padding-left: 24px;
+                                                                           padding-right: 24px;
+                                                                           padding-top: 32px;
+                                                                           padding-bottom: 32px;
+                                                                           justify-content: left;
+                                                                       }
+                                                                       
+                                                                       .orientation-date {
+                                                                           width: 65%;
+                                                                       }
+                                                                       
+                                                                       .practice {
+                                                                           margin-top: 32px;
+                                                                           margin-bottom: 24px;
+                                                                       }
+                                                                       
+                                                                       .read-more {
+                                                                           margin-top: 8px;
+                                                                           color: #0000ff;
+                                                                       }
+                                                                       
+                                                                       .orientation-date-content,
+                                                                       .our-campus-content.,
+                                                                       .guest-lecture-content {
+                                                                           border: 1px solid lightgray;
+                                                                           width: 40%;
+                                                                       }
+                                                                       
+                                                                       .information-main img,
+                                                                       .orientation-date img,
+                                                                       .our-guest-lecture img {
+                                                                           height: auto;
+                                                                           width: 35%;
+                                                                           margin: 16px;
+                                                                           justify-items: right;
+                                                                       }
+                                                                       
+                                                                       .information-main h3,
+                                                                       .orientation-date h3,
+                                                                       .our-guest-lecture h3 {
+                                                                           st-lecture h3 {
+                                                                               text-align: right;
+                                                                           }
+                                                                           .information-main p,
+                                                                           .orientation-date p,
+                                                                           .our-guest-lecture p {
+                                                                               margin-top: 8px;
+                                                                               text-align: right;
+                                                                           }
+                                                                           .our-guest-lecture {
+                                                                               background-color: lightgray;
+                                                                           }
+                                                                           /*End Section-2-orientation*/
+                                                                           /*Start Section-3-start-learning*/
+                                                                           .start-learning {
+                                                                               width: calc(90% /3) padding-right: 24px;
+                                                                               padding: 16px;
+                                                                               justify-content: center;
+                                                                           }
