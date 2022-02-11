@@ -27,6 +27,25 @@
 
 /*---- Menu ----*/
 
+.logo {
+    height: 20px;
+}
+
+.menu-bar {
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-item {
+    margin-left: 24px;
+}
+
 
 /*---- Hero Section ----*/
 
@@ -94,12 +113,29 @@
 
 /*---- Product Section ----*/
 
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .product-item {
-    width: calc(100% / 3);
+    width: calc(90% / 3);
+    padding: 0px 16px;
     margin-bottom: 16px;
-    font-size: 18px;
+    position: relative;
+}
+
+.product-label {
+    background-color: #f87060;
+    color: white;
     font-weight: 600;
-    border-radius: 18px;
+    border-radius: 8px;
+    padding: 12px;
+    width: fit-content;
+    top: 24px;
+    left: -8px;
+    position: absolute;
 }
 
 .product-item-title {
@@ -113,7 +149,15 @@
 
 .product-item-image {
     width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    height: 200px;
     margin-bottom: 12px;
+    border-radius: 18px;
+}
+
+.special {
+    height: 110px;
 }
 
 .price {

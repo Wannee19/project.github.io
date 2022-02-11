@@ -8,16 +8,13 @@
     font-family: 'Supermercado One', cursive;
 }
 
+body {
+    background-color: #f0dd11;
+}
+
 
 /*---- Profile ----*/
 
-
-/*.Profile {
-    width: 100;
-    max-width: 1200px;
-    margin: 0px auto;
-    font-size: 32px;
-    font-weight: 600;
-    background-color: blue;
-    margin-bottom: 24px;
+.Profile {
+    margin-top: 12px;
 }
