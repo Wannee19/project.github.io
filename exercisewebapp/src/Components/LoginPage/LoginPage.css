@@ -1,0 +1,15 @@
+.user-login {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+      135deg,
+      rgb(26, 26, 64, 0.7) 0%,
+      rgb(39, 0, 130, 0.7) 30%,
+      rgb(122, 11, 192, 0.7) 60%,
+      rgb(250, 88, 182, 0.7) 95%
+    ),
+    url(./img/risen-wang-20jX9b35r_M-unsplash.jpg);
+  background-size: cover;
+  padding: 4rem 2rem;
+  overflow-x: hidden;
+}
